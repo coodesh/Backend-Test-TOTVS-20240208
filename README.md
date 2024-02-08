@@ -22,8 +22,7 @@ Neste desafio você deverá implementar uma API REST para um sistema simples de 
 2. Utilizar Spring Boot.
 3. Utilizar o banco de dados PostgreSQL.
 4. A aplicação deve ser executada em um container Docker.
-5. Tanto a aplicação, banco de dados, quanto outros serviços necessários para
-executar a aplicação, devem ser orquestrados utilizando Docker Compose.
+5. Tanto a aplicação, banco de dados, quanto outros serviços necessários para executar a aplicação, devem ser orquestrados utilizando Docker Compose.
 6. O código do projeto deve ser hospedado no GitHub ou GitLab.
 7. Utilizar mecanismo de autenticação.
 8. Organizar o projeto com Domain Driven Design.
