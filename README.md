@@ -31,27 +31,25 @@ Neste desafio você deverá implementar uma API REST para um sistema simples de 
 11. Todas as APIs de consulta devem ser paginadas.
 
 ## Requisitos Específicos
-1. Cadastrar a tabela no banco de dados para armazenar as contas a pagar. Deve
-incluir no mínimo os seguintes campos: (Faça a tipagem conforme achar adequado)
-a. id
-b. data_vencimento
-c. data_pagamento
-d. valor
-e. descricao
-f. situacao
+1. Cadastrar a tabela no banco de dados para armazenar as contas a pagar. Deve incluir no mínimo os seguintes campos: (Faça a tipagem conforme achar adequado)
+    a. id
+    b. data_vencimento
+    c. data_pagamento
+    d. valor
+    e. descricao
+    f. situacao
 
-2. Implementar a entidade “Conta” na aplicação, de acordo com a tabela criada
-anteriormente.
+2. Implementar a entidade “Conta” na aplicação, de acordo com a tabela criada anteriormente.
 3. Implementar as seguintes APIs:
-a. Cadastrar conta;
-b. Atualizar conta;
-c. Alterar a situação da conta;
-d. Obter a lista de contas a pagar, com filtro de data de vencimento e descrição;
-e. Obter conta filtrando o id;
-f. Obter valor total pago por período.
+    a. Cadastrar conta;
+    b. Atualizar conta;
+    c. Alterar a situação da conta;
+    d. Obter a lista de contas a pagar, com filtro de data de vencimento e descrição;
+    e. Obter conta filtrando o id;
+    f. Obter valor total pago por período.
 
 4. Implementar mecanismo para importação de contas a pagar via arquivo csv.
-a. O arquivo será consumido via API.
+   a. O arquivo será consumido via API.
 
 5. Implementar testes unitários.
 
