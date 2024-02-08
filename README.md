@@ -4,20 +4,20 @@
 
 Neste desafio você deverá implementar uma API REST para um sistema simples de contas a pagar. O sistema permitirá realizar o CRUD de uma conta a pagar, alterar a situação dela quando for efetuado pagamento, obter informações sobre as contas cadastradas no banco de dados, e importar um lote de contas de um arquivo CSV, conforme descrito abaixo.
 
-### Antes de começar
+## Antes de começar
  
 - Considere como deadline da avaliação a partir do início do teste. Caso tenha sido convidado a realizar o teste e não seja possível concluir dentro deste período, avise a pessoa que o convidou para receber instruções sobre o que fazer.
 - Documentar todo o processo de investigação para o desenvolvimento da atividade (README.md no seu repositório); os resultados destas tarefas são tão importantes do que o seu processo de pensamento e decisões à medida que as completa, por isso tente documentar e apresentar os seus hipóteses e decisões na medida do possível.
 
-### Instruções iniciais obrigatórias
+## Instruções iniciais obrigatórias
 
 - Utilize as seguintes tecnologias: Java 17 ou superior, Spring boot, PostgreSQL, Docker, Docker Compose, Github, Flyway, DDD, Rest API, JPA
 
-#### Organização:
+### Organização:
 - Organizar o projeto com Domain Driven Design
 - Aplicação de padrões Clean Code
 
-#### Requisitos Gerais
+## Requisitos Gerais
 1. Utilizar a linguagem de programação Java, versão 17 ou superior.
 2. Utilizar Spring Boot.
 3. Utilizar o banco de dados PostgreSQL.
@@ -31,7 +31,7 @@ executar a aplicação, devem ser orquestrados utilizando Docker Compose.
 10. Utilizar JPA.
 11. Todas as APIs de consulta devem ser paginadas.
 
-#### Requisitos Específicos
+## Requisitos Específicos
 1. Cadastrar a tabela no banco de dados para armazenar as contas a pagar. Deve
 incluir no mínimo os seguintes campos: (Faça a tipagem conforme achar adequado)
 a. id
